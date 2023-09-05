@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600;700&display=swap'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tektur', cursive;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: linear-gradient(70deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.container {
+    background-color: #e3dada52;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid #000;
+    border-radius: 25px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    color: #a44099;
+    font-size: 40px;
+}
+
+label {
+    color: #a44099;
+    font-size: 20px;
+}
+
+input {
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #e3dada37;
+    border-bottom: 2px solid black;
+}
+
+button {
+    height: 50px;
+    background-color: #a44099;
+    border: none;
+    color: #333;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+button:hover {
+    background-color: #8e3383;
+}
+
+/* toggle css */
+body.dark {
+    background: #333;
+}
+.toggleInp {
+    margin-top: -3rem;
+    margin-left: 12rem;
+    cursor: pointer;
+}
